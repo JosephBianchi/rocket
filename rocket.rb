@@ -1,3 +1,6 @@
+require "pry"
+
+
 class Rocket
   def initialize(options = {})
     @name = options[:name] || random_name
